@@ -1,0 +1,15 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+#AnchorPane{
+    -fx-background-color: rgb(45, 52, 54);
+}
+
+.tableView{
+    -fx-background-color:  rgb(45, 52, 54);
+}

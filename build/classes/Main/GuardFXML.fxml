@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.GuardFXMLController">
+    <stylesheets>
+        <URL value="@guardfxml.css" />
+    </stylesheets>
+   <children>
+      <AnchorPane prefHeight="405.0" prefWidth="610.0" style="-fx-background-color: #043b5c;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="28.0" prefHeight="35.0" prefWidth="497.0" text=" Student Laptop Checkout System" textFill="#bd9b19">
+               <font>
+                  <Font name="Serif Regular" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="searchstudBtn" layoutX="370.0" layoutY="148.0" mnemonicParsing="false" onAction="#changeScreenButtonPushedGuard" prefHeight="35.0" prefWidth="138.0" style="-fx-background-color: #bd9b19;" text="Search Laptop">
+               <font>
+                  <Font name="Serif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="Userlbl1" layoutX="245.0" layoutY="76.0" text="Guard Page" textFill="#bd9b19">
+               <font>
+                  <Font name="Serif Regular" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="AddStudBtn" layoutX="118.0" layoutY="148.0" mnemonicParsing="false" onAction="#changeScreenButtonPushedGuard" prefHeight="35.0" prefWidth="138.0" style="-fx-background-color: #bd9b19;" text="Add Laptop">
+               <font>
+                  <Font name="Serif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="UpdateStudBtn" layoutX="370.0" layoutY="211.0" mnemonicParsing="false" onAction="#changeScreenButtonPushedGuard" prefHeight="35.0" prefWidth="138.0" style="-fx-background-color: #bd9b19;" text="Update Laptop">
+               <font>
+                  <Font name="Serif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="deleteStudBtn" layoutX="119.0" layoutY="211.0" mnemonicParsing="false" onAction="#changeScreenButtonPushedGuard" prefHeight="35.0" prefWidth="138.0" style="-fx-background-color: #bd9b19;" text="Delete Laptop">
+               <font>
+                  <Font name="Serif Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="logoutbtn" layoutX="508.0" layoutY="343.0" mnemonicParsing="false" onAction="#changeScreenButtonPushedGuard" style="-fx-background-color: #bd9b19;" text="Logout" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

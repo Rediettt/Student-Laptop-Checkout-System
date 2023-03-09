@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="634.0" prefWidth="1158.0" style="-fx-background-color: rgb(45, 52, 54);" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="slc.controllers.FXML_VIEW_STUDENT_AND_LAPTOPController">
+    <stylesheets>
+        <URL value="@/slc/styleShee/css/fxml_view_student_and_laptop.css" />
+    </stylesheets>
+   <children>
+      <TableView fx:id="tableViewStudentLaptop" prefHeight="777.0" prefWidth="1407.0" styleClass="tableView" stylesheets="@../styleShee/css/fxml_view_student_and_laptop.css">
+        <columns>
+          <TableColumn fx:id="idCol" prefWidth="84.0" text="ID" />
+          <TableColumn fx:id="firstNameCol" prefWidth="109.0" text="First Name" />
+            <TableColumn fx:id="middleNameCol" prefWidth="133.0" text="Middle Name" />
+            <TableColumn fx:id="lastNameCol" prefWidth="116.0" text="Last Name" />
+            <TableColumn fx:id="eduLevelCol" minWidth="0.0" prefWidth="140.0" text="Education Level" />
+            <TableColumn fx:id="depCol" minWidth="0.0" prefWidth="123.0" text="Departement" />
+            <TableColumn fx:id="yearCol" minWidth="0.0" prefWidth="94.0" text="Year" />
+            <TableColumn fx:id="serialNumCol" prefWidth="170.0" text="Serial Number" />
+            <TableColumn fx:id="brandNameCol" prefWidth="123.0" text="Brand Name" />
+            <TableColumn fx:id="regiDateCol" prefWidth="156.0" text="Registration Date" />
+            <TableColumn prefWidth="158.0" text="Phone Number" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
